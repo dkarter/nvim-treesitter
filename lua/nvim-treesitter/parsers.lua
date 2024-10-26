@@ -365,6 +365,14 @@ list.dart = {
   maintainers = { "@akinsho" },
 }
 
+list.desktop = {
+  install_info = {
+    url = "https://github.com/ValdezFOmar/tree-sitter-desktop",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@ValdezFOmar" },
+}
+
 list.devicetree = {
   install_info = {
     url = "https://github.com/joelspadin/tree-sitter-devicetree",
@@ -2531,6 +2539,15 @@ list.xml = {
     location = "xml",
   },
   maintainers = { "@ObserverOfTime" },
+}
+
+list.xresources = {
+  install_info = {
+    url = "https://github.com/ValdezFOmar/tree-sitter-xresources",
+    files = { "src/parser.c" },
+  },
+  filetype = "xdefaults",
+  maintainers = { "@ValdezFOmar" },
 }
 
 list.yaml = {

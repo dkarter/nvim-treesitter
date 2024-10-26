@@ -63,7 +63,7 @@ For more detailed information on setting these up, see ["Advanced setup"](#advan
 
 ## Requirements
 
-- **Neovim 0.9.2** or later  ([nightly](https://github.com/neovim/neovim#install-from-source) recommended)
+- **Neovim 0.10** or later  ([nightly](https://github.com/neovim/neovim#install-from-source) recommended)
 - `tar` and `curl` in your path (or alternatively `git`)
 - A C compiler in your path and libstdc++ installed ([Windows users please read this!](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support)).
 
@@ -209,6 +209,7 @@ We are looking for maintainers to add more parsers and to write query files for 
 - [x] [cue](https://github.com/eonpatapon/tree-sitter-cue) (maintained by @amaanq)
 - [x] [d](https://github.com/gdamore/tree-sitter-d) (maintained by @amaanq)
 - [x] [dart](https://github.com/UserNobody14/tree-sitter-dart) (maintained by @akinsho)
+- [x] [desktop](https://github.com/ValdezFOmar/tree-sitter-desktop) (maintained by @ValdezFOmar)
 - [x] [devicetree](https://github.com/joelspadin/tree-sitter-devicetree) (maintained by @jedrzejboczar)
 - [x] [dhall](https://github.com/jbellerb/tree-sitter-dhall) (maintained by @amaanq)
 - [x] [diff](https://github.com/the-mikedavis/tree-sitter-diff) (maintained by @gbprod)
@@ -466,6 +467,7 @@ We are looking for maintainers to add more parsers and to write query files for 
 - [x] [wit](https://github.com/liamwh/tree-sitter-wit) (maintained by @liamwh)
 - [x] [xcompose](https://github.com/ObserverOfTime/tree-sitter-xcompose) (maintained by @ObserverOfTime)
 - [x] [xml](https://github.com/tree-sitter-grammars/tree-sitter-xml) (maintained by @ObserverOfTime)
+- [x] [xresources](https://github.com/ValdezFOmar/tree-sitter-xresources) (maintained by @ValdezFOmar)
 - [x] [yaml](https://github.com/tree-sitter-grammars/tree-sitter-yaml) (maintained by @amaanq)
 - [x] [yang](https://github.com/Hubro/tree-sitter-yang) (maintained by @Hubro)
 - [x] [yuck](https://github.com/Philipp-M/tree-sitter-yuck) (maintained by @Philipp-M, @amaanq)
