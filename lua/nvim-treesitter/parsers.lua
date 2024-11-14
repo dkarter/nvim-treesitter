@@ -21,6 +21,7 @@ for ft, lang in pairs {
   mysql = "sql",
   sbt = "scala",
   neomuttrc = "muttrc",
+  clientscript = "runescript",
   --- short-hand list from https://github.com/helix-editor/helix/blob/master/languages.toml
   rs = "rust",
   ex = "elixir",
@@ -288,6 +289,7 @@ list.cooklang = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@addcninblue" },
+  filetype = "cook",
 }
 
 list.corn = {
@@ -347,6 +349,14 @@ list.cue = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@amaanq" },
+}
+
+list.cylc = {
+  install_info = {
+    url = "https://github.com/elliotfontaine/tree-sitter-cylc",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@elliotfontaine" },
 }
 
 list.d = {
@@ -1139,7 +1149,6 @@ list.julia = {
     url = "https://github.com/tree-sitter/tree-sitter-julia",
     files = { "src/parser.c", "src/scanner.c" },
   },
-  maintainers = { "@theHamsta" },
 }
 
 list.just = {
@@ -1458,6 +1467,14 @@ list.nqc = {
     files = { "src/parser.c" },
   },
   maintainers = { "@amaanq" },
+}
+
+list.nu = {
+  install_info = {
+    url = "https://github.com/nushell/tree-sitter-nu",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@abhisheksingh0x558" },
 }
 
 list.objc = {
@@ -1931,6 +1948,14 @@ list.ruby = {
   maintainers = { "@TravonteD" },
 }
 
+list.runescript = {
+  install_info = {
+    url = "https://github.com/2004Scape/tree-sitter-runescript",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@2004Scape" },
+}
+
 list.rust = {
   install_info = {
     url = "https://github.com/tree-sitter/tree-sitter-rust",
@@ -2153,6 +2178,14 @@ list.svelte = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@amaanq" },
+}
+
+list.sway = {
+  install_info = {
+    url = "https://github.com/FuelLabs/tree-sitter-sway.git",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@ribru17" },
 }
 
 list.swift = {
